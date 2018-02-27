@@ -82,6 +82,15 @@
     margin-right: 0;
     margin-bottom: 3rem;
   }
+
+  @media only screen and (max-width: $bp-smallest) {
+    padding: 2.5rem;
+  }
+
+  @media only screen and (max-width: $bp-tiny) {
+    padding: 1.8rem;
+    font-size: 1.32rem;
+  }
 }
 
 .user-reviews {

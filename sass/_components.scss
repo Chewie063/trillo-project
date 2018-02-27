@@ -268,8 +268,11 @@
     }
 
     @media only screen and (max-width: $bp-tiny) {
-      font-size: 1.3rem;
-      padding: 1rem;
+      padding: 1.1rem;
+    }
+
+    @media only screen and (max-width: $bp-tiny) {
+      font-size: 1.4rem;
     }
   }
 
@@ -289,10 +292,18 @@
     display: flex;
     align-items: center;
     font-size: 1.2rem;
+
+    @media only screen and (max-width: $bp-tiny) {
+      font-size: 1rem;
+    }
   }
 
   &__icon-location {
     margin-right: .5rem;
+
+    @media only screen and (max-width: $bp-tiny) {
+      margin-right: .2rem;
+    }
   }
 
   &__rating {
@@ -318,10 +329,6 @@
 
     @media only screen and (max-width: $bp-small) {
       font-size: 1.75rem;
-    }
-
-    @media only screen and (max-width: $bp-tiny) {
-      font-size: 1.5rem;
     }
   }
 
@@ -406,6 +413,10 @@
   display: flex;
   flex-wrap: wrap;
 
+  @media only screen and (max-width: $bp-smallest) {
+    padding: 0;
+  }
+
   &__item {
     flex: 0 0 50%;
     margin-bottom: .7rem;
@@ -417,6 +428,10 @@
     height: 1rem;
     width: 1rem;
     margin-right: .7rem;
+
+    @media only screen and (max-width: $bp-smallest) {
+      margin-right: 0rem;
+    }
 
     //Older browsers
     background-image: url(../img/chevron-thin-right.svg);
